@@ -1,0 +1,11 @@
+name: lunar-e2e-098-388f856d18
+on:
+  push:
+    paths:
+      - .github/workflows/lunar-e2e-098-388f856d18.yml
+jobs:
+  e2e:
+    runs-on: localdev-e2e-test-42366459526-1-github-18-e2e
+    steps:
+      - name: Step
+        run: /bin/echo 'script_run.error probe'
